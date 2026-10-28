@@ -5,8 +5,8 @@ function App() {
   return (
     <div className={'w-svw h-svh bg-ground flex'}>
       <div className={`mt-16 ml-16 bg-surface transition-colors duration-250 px-4 py-2 h-fit w-fit border-2 
-      hover:bg-primary hover:border-primary hover:text-black border-raised 
-       active:bg-raised active:border-surface active:text-ink
+      hover:bg-primary hover:border-primary hover:text-black border-ink/12 
+       active:bg-raised active:border-ink/12 active:text-ink
       `}>
         <h3 className={'pointer-events-none select-none'}>Sign up</h3>
       </div>
@@ -17,8 +17,8 @@ function App() {
       `}>
         <h3 className={'pointer-events-none select-none'}>Enter</h3>
       </button>
-      <div className={`w-256 h-256 ml-32 mt-32 bg-surface
-      border-1 border-raised
+      <div className={`w-256 h-128 ml-32 mt-32 bg-surface
+      border-1 border-ink/12
       `}>
 
       </div>
