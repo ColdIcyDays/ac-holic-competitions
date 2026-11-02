@@ -10,10 +10,10 @@ function App() {
       `}>
         <h3 className={'pointer-events-none select-none'}>Sign up</h3>
       </div>
-      <button className={`mt-16 ml-16 bg px-4 py-2 h-fit w-fit transition-colors duration-250 border-2
+      <button className={`mt-16 ml-16 px-4 py-2 h-fit w-fit transition-colors duration-250 border-2
       border-primary bg-primary text-black 
-      hover:text-ink hover:bg-raised hover:border-raised
-      active:bg-primary 
+       hover:bg-primary-hover hover:
+      active:bg-primary-active 
       `}>
         <h3 className={'pointer-events-none select-none'}>Enter</h3>
       </button>

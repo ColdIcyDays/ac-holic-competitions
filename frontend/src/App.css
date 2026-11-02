@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root {
+    --font-voice: "Chakra Petch", system-ui, sans-serif;
+    --font-system: "JetBrains Mono", ui-monospace, monospace;
+}
+
 @theme {
     --color-*: initial;
     --color-ground: #070B14;
@@ -17,11 +22,19 @@
 
     --color-white: #FFFFFF;
     --color-black: #000000;
+
+    --color-primary-hover: #7AE8FF;
+    --color-primary-active: #12B5D9;
+    --color-accent-hover: #FF70BE;
+    --color-accent-active: #E62B8E;
+    --color-pressed: #1F2A44;
+    --color-disabled: #5A6682;
 }
 
 @layer base {
     html {
         @apply text-ink;
+        font-family: var(--font-voice), system-ui;
     }
 
     h1 {
@@ -40,3 +53,5 @@
         @apply text-base md:text-lg;
     }
 }
+
+/* Use: font: var(--type-h2); */
